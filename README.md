@@ -24,3 +24,34 @@ First, clone this repository to your local machine:
 ```bash
 git clone https://github.com/your-username/qr-code-scanner.git
 cd qr-code-scanner
+
+# QR Code Scanner App
+
+## 2. Install Dependencies
+Next, install the necessary dependencies:
+
+```bash
+npm install
+3. Start the Development Server
+Run the app using Expo:
+
+bash
+Copy code
+npx expo start
+This will launch the Expo development server, and you can view the app in your browser or mobile device by scanning the QR code.
+
+🔑 Permissions
+The app requires camera permissions to scan QR codes. The first time you open the app, you'll be prompted to grant camera access. Without this permission, the scanning feature won't work.
+
+If permission is not granted, you will see a button to request camera access. Once granted, you will be able to start scanning QR codes right away! 🎉
+
+📱 Features
+Camera Access Request: If the app doesn't have permission to access the camera, it will ask you to grant it.
+QR Code Scanning: Once the camera access is granted, you can scan QR codes to retrieve information.
+Simple Interface: The app has a minimal and clean user interface to ensure a seamless experience.
+🌐 Technologies Used
+React Native – For building cross-platform mobile apps
+Expo – Framework for building and deploying React Native apps
+Lucide React Native – For icons like QR Code and Camera
+📝 License
+This project is licensed under the MIT License – see the LICENSE file for details.
