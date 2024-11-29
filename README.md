@@ -1,6 +1,3 @@
-Here is the corrected and formatted version of your README for GitHub, tailored for a QR Code Scanner App using React Native:
-
-```markdown
 # QR Code Scanner App 📱🔍
 
 Welcome to the **QR Code Scanner App**! This React Native app allows users to scan QR codes with ease. Follow the installation steps below to get started.
@@ -27,7 +24,7 @@ First, clone this repository to your local machine:
 ```bash
 git clone https://github.com/your-username/qr-code-scanner.git
 cd qr-code-scanner
-```
+
 
 ### 2. Install Dependencies
 
